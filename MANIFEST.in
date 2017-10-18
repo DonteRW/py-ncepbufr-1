@@ -1,0 +1,20 @@
+include MANIFEST.in
+include Changelog
+include COPYING
+include setup.py
+include README.md
+recursive-include docs *
+include test/*.py 
+include test/*bufr
+include test/1bamua
+include create_docs.sh
+include src/*.f*
+include src/_bufrlib.pyf
+include src/README.libbufr
+include src/*.c
+include src/*.F*
+include src/*.PRM*
+include src/makebufrlib.sh
+include src_diag/*90
+include utils/prepbufr2nc
+include utils/nc2prepbufr
